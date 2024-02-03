@@ -22,21 +22,103 @@
 /*******************************************/
 
 body {
+ display: block;
  font-size: 16px;
+ font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+nav, h1, h2, h3 {
+  text-transform: uppercase;
+}
 
 /******************************************
-/* LAYOUT
+/* HEADER
 /*******************************************/
 header {
-
+  background: #66768a;
+  color: #f1f1f1;
+  height: 500px;
+  text-align: center;
 }
 
-footer {
-
+nav {
+  height: 60px;
+  position: relative;
 }
+
+.nav {
+  float: left;
+  padding-top: 20px;
+  width: 20%;
+}
+
+header a {
+  color: #f1f1f1;
+  padding: 0 10px;
+}
+
+.nav-2 {
+  width: 60%;
+}
+
+.nav-3 {
+  float: right;
+}
+
+.nav-3 a {
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  color: #66768a;
+  padding: 10px 10px;
+}
+
+nav img {
+  position: absolute;
+  top: 5px;
+  width: 3%;
+}
+
+.hero {
+  color: #f1f1f1;
+  font-weight: 500;
+  margin-bottom: 7%;
+  padding: 0 12%;
+}
+
+h1 {
+  font-size: 3.7rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  margin-bottom: 30px;
+}
+
+i {
+  padding-right: 10px;
+}
+
+.hero a {
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+header span {
+  color: #3e414f;
+  font-style: italic;
+}
+/******************************************
+/* MAIN
+/*******************************************/
+
+
 
 /******************************************
-/* ADDITIONAL STYLES
+/* FOOTER
 /*******************************************/
