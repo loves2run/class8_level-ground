@@ -36,7 +36,7 @@ nav, h1, h2, h3 {
 }
 
 h1, h2, h3 {
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 /******************************************
@@ -190,6 +190,8 @@ main a {
 footer {
   background-color: #161f2a;
   color: #fff;
+  height: 250px;
+  padding: 20px 30px;
 }
 
 footer a {
@@ -199,9 +201,62 @@ footer a {
 .footer-left, .footer-right {
   width: 20%;
   float: left;
-  text-align: center;
+}
+
+.footer-left section:last-child {
+  padding-bottom: 20px;
+}
+
+.quick-links {
+  padding-top: 10px;
+}
+
+.quick-links a {
+  font-weight: 500;
+  padding-right: 25px;
+}
+
+.quick-links span {
+  color: #66768a;
+  line-height: 1.5rem;
+  text-transform: uppercase
+}
+
+i {
+  font-size: 1.4rem;
+  padding-right: 30px;
 }
 
 .footer-right {
   float: right;
+}
+
+.footer-right span {
+  display: block;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+address {
+  color: #8b9095;
+  font-style: normal;
+}
+
+.footer-bottom {
+  clear: both;
+}
+
+.footer-bottom span {
+  display: block;
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+.footer-bottom img {
+  display: block;
+  position: relative;
+  top: -27px;
+  left: 1211px;
+  width: 3%;
 }
